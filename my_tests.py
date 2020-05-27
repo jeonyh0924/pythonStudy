@@ -57,7 +57,6 @@ class StackTestCase(unittest.TestCase):
         val = 10
         self.stack.push(10)
         self.assertEqual(self.stack.empty(), 0)
-        self.stack.s.remove(val)
 
     # top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
     #     def
